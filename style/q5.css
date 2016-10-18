@@ -1,0 +1,72 @@
+body
+{ 
+	background-image	: url(../images/floral0105.gif);
+	background-repeat	: repeat;
+	margin				: 0;
+}
+
+a:visited, a:link {color: black}
+
+#container
+{
+	margin-left			: auto;
+	margin-right		: auto;
+	width				: 960px;
+}
+h1#banner
+{	
+	color				: white;
+	text-align			: center;
+	width				: 85%;
+}
+
+#menu
+{
+	background-color	: #606060 ;
+	border				: 2px solid black;
+	font-size			: 15pt;
+	min-height			: 400px;
+	width				: 160px;
+	float				: left;
+}
+
+#content
+{	
+	background-color	: #606060;
+	border				: 2px solid black;
+	margin-left			: 50px;
+	min-height			: 400px;
+	width				: 742px;
+	float				: left;
+}
+
+
+#footer
+{	
+	color				: white;
+	font-weight			: bold;
+	min-height			: 30px;
+	position			: relative;
+	bottom				: 10px;
+	text-align			: center;
+	width				: 85%;
+	
+}
+
+
+#date
+{	
+	color				: white;	
+}
+
+
+.clear
+{
+	clear				: both;
+	display				: block;
+	height				: 0;
+	overflow			: hidden;
+	visibility			: hidden;
+	width				: 0;
+}
+

@@ -1,0 +1,74 @@
+body{ 
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+a:visited, a:link{color:black;}
+
+#container{
+	
+	background-color:  ;	
+	width: 95%;
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+#banner{
+	
+	text-align:center;
+	font-size:35pt;
+	width:85%;
+	
+}
+#menu{
+	
+	font-size: 15pt;
+	width:15%;
+	display:inline-block;
+	min-height: 400px;
+	border: 2px solid black;
+	position:relative;
+	top:-200px;
+	background-color:#606060 ;
+	
+}
+
+#content{
+	
+	background-color: #606060;
+	display: inline-block;
+	width: 68%;
+	min-height:400px;
+	border:2px solid black;
+	margin-top:20px;
+	margin-left: 20px;
+}
+
+
+#footer{
+	
+	text-align: center;
+	min-height:30px;
+	width:85%;
+	position:relative;
+	bottom:10px;
+	font-weight:bold;
+	
+}
+
+#date{
+	
+	color: white;	
+	
+}
+.fl{
+	
+	float: left;
+	padding:5px;
+}
+
+.clear{
+	
+	clear: left;
+}
