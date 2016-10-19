@@ -18,7 +18,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="index.php"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> 
 				<?php 
