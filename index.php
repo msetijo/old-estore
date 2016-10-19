@@ -18,7 +18,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="/"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> <?php 
 					if( !isset($_SESSION["user"]) ) {
@@ -47,7 +47,7 @@
 				relentless Boston investigator must solve a coldly calculated murder--before it happens. 
 				</p>
 				<p><b>$16.55</b></p>
-				<p> <?php 
+				<p class="add_cart"> <?php 
 					if( !isset($_SESSION["user"]) ) {
 						echo "<a href=\"\">Add to Cart</a>";
 					}
@@ -65,7 +65,7 @@
 				will finally lay to rest the questions that have haunted her fans for a decade.
 				</p>
 				<p><b>$19.99</b></p>
-				<p> <?php 
+				<p class="add_cart"> <?php 
 					if( !isset($_SESSION["user"]) ) {
 						echo "<a href=\"\">Add to Cart</a>";
 					}
@@ -81,7 +81,7 @@
 				<p>When teenage girls vanish in what was once considered a safe, Louisiana bayou town, the lives of four desperate 
 				young locals take unexpected turns, begging the crucial question: Do you every truly know those closest to you? </p>
 				<p><b>$17.65</b></p>
-				<p> <?php 
+				<p class="add_cart"> <?php 
 					if( !isset($_SESSION["user"]) ) {
 						echo "<a href=\"\">Add to Cart</a>";
 					}
