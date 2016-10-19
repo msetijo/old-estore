@@ -42,7 +42,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="index.php"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> <?php 
 					if( !isset($_SESSION["user"]) ) {
@@ -69,7 +69,7 @@
 				<form method="post" action="" onsubmit="return validate()">
 
 					<div>
-					
+					<h3>Use ms@gmail.com as username, and japan as password.</h3>
 					<label class="top-label">Email: </label>
 					<input name="email" id="emailaddress" type="text" size="20" maxlength="25" />
 							

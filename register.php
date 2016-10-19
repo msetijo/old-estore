@@ -7,6 +7,7 @@
 	<head>
 		<title>Register</title>
 		<link rel="stylesheet" type="text/css" href="style/register.css" />
+		<link rel="stylesheet" type="text/css" href="style/q3.css" />
 		<script src="script/q3.js" type="text/javascript"> </script>
 		<meta http-equiv="Content-type" content="application/xhtml+xml;charset=UTF-8"/>
 	</head>
@@ -19,7 +20,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="index.php"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> 
 				<?php 

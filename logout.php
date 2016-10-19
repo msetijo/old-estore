@@ -6,6 +6,6 @@
 	
 	session_destroy (); // destroy session data
 	
-	header('Location: q3.php');
+	header('Location: index.php');
 
 ?>
