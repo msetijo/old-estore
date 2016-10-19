@@ -18,7 +18,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="index.php"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> <?php 
 					if( !isset($_SESSION["user"]) ) {
@@ -118,7 +118,7 @@
 				
 				<?php
 				
-				echo "<p><a href=\"q3.php\"> Continue shopping </a></p>";
+				echo "<p><a href=\"index.php\"> Continue shopping </a></p>";
 				
 				echo "<p><a href=\"receipt.php\"> Check out </a></p>";
 					
