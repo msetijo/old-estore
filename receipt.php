@@ -18,7 +18,7 @@
 				<div id="date"> </div>	
 			
 			<div id="menu">
-				<p> <a href="q3.php"> Home </a></p>
+				<p> <a href="index.php"> Home </a></p>
 				<p> <a href="">Products </a></p>
 				<p> <?php 
 					if( !isset($_SESSION["user"]) ) {
@@ -44,8 +44,9 @@
 				
 			<?php
 				$array = $_SESSION['cart'];
-				
-				if($array[4] == 0 && $array[5] == 0 && $array[6] == 0)
+				$total = 0;
+
+				if(empty($array))
 				{
 					echo "You have purchased nothing!";
 				}
@@ -57,10 +58,27 @@
 				echo "<table border='1' > <tr> <th >Items</th> <th >Price</th></tr> ";
 				
 				
+				if($array[1] == 0){
 				$book1 = $array[4];
+				}else{
+				$book1 = $array[1] * 16.65;
+				}
+				if($array[2] == 0){
 				$book2 = $array[5];
+				}else{
+				$book2 = $array[2] * 19.99;
+				}
+				if($array[3] == 0){
 				$book3 = $array[6];
-				
+				}else{
+				$book3 = $array[3] * 17.65;
+				}
+
+				if($array[7] == 0){
+				$total = $book1 + $book2 + $book3;
+				}else{
+				$total = $array[7];
+				}		
 				echo "<tr><td>Catch Me by Lisa Gardner</td>";
 				echo "<td>$ $book1</td>";
 				echo "</tr>";
@@ -74,7 +92,7 @@
 				echo "</tr>";
 				
 				echo "<tr> <td align='right'><b>Total:</b></td>";
-				echo "<td>$ $array[7]</td>";
+				echo "<td>$ $total</td>";
 				echo "</tr>";
 				echo "</table>";
 				
